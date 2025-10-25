@@ -1,0 +1,80 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        nav{
+            height: 30px;
+            width:100% ;
+            background-color: cadetblue;
+            text-align: end;
+            text-decoration: ;
+        }
+        a{
+            text-decoration: none;
+            color: azure;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        .begin{
+            height: 100px;
+            width: 100%;
+            background-color:aliceblue;
+            text-align: center;
+            font-size: xx-large;
+        }
+        div{
+            display: flex;
+            justify-content: flex-start;
+        }
+        .title{
+            font-size: x-large;
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: cadetblue;
+            border-left: 4px solid cadetblue;
+            margin: 10px;
+            margin-left: 50px;
+        }
+        .text{
+            margin-left: 25px;
+            margin-right: 20px;
+            font-size: large;
+            margin-left: 50px;
+            margin-right: 50px;
+        }
+        img{
+            width: 300px;
+            height: 200px;
+            margin-right: 100px;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">About Me</a>
+        <a href="#">My Works</a>
+        <a href="#">My Blog</a>
+    </nav>
+
+    <section class="begin">My Blog</section>
+
+    <aside class="title">Planting Trees</aside>
+    <div>
+    <aside class="text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ex odio quidem aperiam? Ducimus quaerat reprehenderit beatae accusamus quis magni perspiciatis veritatis ut totam amet odit laborum pariatur cumque, numquam illum. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem excepturi sed eius sapiente molestias, aut hic quod laborum corporis voluptate autem ut corrupti dolorum velit veniam placeat, esse saepe fugiat.</aside>
+    <img src="https://static.wikia.nocookie.net/ninjago/images/4/42/Christofern_the_Fern.jpg/revision/latest/smart/width/400/height/225?cb=20220930195222" alt="">
+</div>
+
+    <aside class="title">Drawing LEGO's</aside>
+    <div>
+    <aside class="text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla, aspernatur aliquid, pariatur architecto officia iusto voluptas, quis rerum voluptatibus hic nisi enim sint maiores atque cumque adipisci numquam. Repellendus, culpa?Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui ullam natus, odio nesciunt veniam obcaecati officiis, reiciendis possimus inventore commodi doloremque placeat sed minus deserunt ea deleniti consequatur rerum dolorum.</aside>
+    <img src="https://cdn.episode.ninja/file/episodeninja/7979683.jpg" alt="">
+</div>
+
+    <aside class="title">Being Random</aside>
+    <div>
+    <aside class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt odit expedita consequuntur dicta iste harum doloribus hic placeat obcaecati aliquid eligendi cumque iusto, velit, adipisci illum. Quaerat excepturi ullam ducimus? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad sit obcaecati earum, eligendi beatae cumque aspernatur deleniti voluptatibus soluta eum non repellendus in ea consequuntur ut voluptates temporibus explicabo ipsa?</aside>
+    <img src="https://randomfandom.io/wp-content/uploads/2024/07/random-fandom-header-image3-1024x1024.jpg" alt="">
+</div>
+</body>
+</html>
