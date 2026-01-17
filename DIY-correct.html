@@ -9,6 +9,7 @@
     .bg{
         box-shadow: 3px -20px 99px;
         border-radius: 5 5 5 5;
+
     }
     .link{
         text-decoration: none;
@@ -19,24 +20,70 @@
     .title{
         margin-left: 50px;
     }
-    div{
+    .item{
         margin-right: 150px;
     }
     .button{
         border-radius: 10px;
         margin-right: 50px;
     }
+    .mini{
+        font-size: ;
+        font-weight: 500;
+        color: blue;
+        margin-top: 100px;
+        text-align: center;
+    }
+    .intro{
+        font-weight:700 ;
+        text-align: center;
+        font-size: 70;
+        margin-top: 20px;
+    }
+    /* on mobile phones */
+    @media (min-width: 320px) and (max-width:426px) {
+        .bg{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+ 
+        }
+        .linked{
+            display: none;
+        }
+        
+    }
+    /* on any thing a tablet and beyond */
+    @media (min-width:427px) {
+        svg{
+            display: none;
+        }
+        .linked{
+            display: block;
+            display:contents ;
+        }
+    }
 </style>
 <body>
 <nav class="navbar bg">
     <section class="navbar-brand fw-bold text-primary title ">ASCEND.</section>
-    <div>
+    
+     <svg xmlns="http://www.w3.org/2000/svg" color="blue" width="25" height="20" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
+</svg>
+
+    <div class="linked">
+    <div class="item">
         <a href="#" class="nav-item link">Pathway</a>
         <a href="#" class="nav-item link">6 Pillars</a>
         <a href="#" class="nav-item link">OS-tools</a>
         <a href="#" class="nav-item link">Start Ascent</a>
     </div>
     <button class="btn bg-primary fw-bold text-light button">Start Your Ascent</button>
-</nav>
+    </div>
+    </nav>
+
+<aside class="mini">Nigeria's Premier All-in-One SME Center</aside>
+<h1 class="intro">Your Complete Business Growth Platform</h1>
 </body>
 </html>
